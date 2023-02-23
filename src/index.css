@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Overpass", sans-serif;
+  background-color: #131518;
+
+}
+
+.box {
+  background: linear-gradient(120deg, #232A34, #181E27);
+  border-radius: 0.9375em;
+  padding: 1.5em;
+  width:20.4375em;
+  height: 22.5em;
+}
+
+.submit {
+  background-color: #FC7614;
+}
+
+.img-box {
+  background-color: #262E38;
+}
+
+.text {
+  color: #969FAD;
+}
+
+.rating {
+  width: 2.625em;
+  height: 2.625em;
+  border-radius: 50%;
+  background-color: #262E38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #7C8798;
+  transition: 0.4s;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.rating:hover {
+  background-color: #FC7614;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.active-rating {
+  width: 2.625em;
+  height: 2.625em;
+  border-radius: 50%;
+  background-color: #7C8798;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.4s;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.submit:hover {
+  background-color: #fff;
+  color: #FC7614;
+  transition: 0.4s;
+}
+
+.select-box {
+  background-color: #262E38;
+}
+
+.select {
+  color: #FC7614;
+}
+
+@media screen and (min-width: 40em) {
+  .box {
+    width: 25.75em;
+    height: 26em;
+    border-radius: 1.875em;
+    padding: 2em;
+  }
+
+  .rating {
+    width: 3.1875em;
+    height: 3.1875em;
+
+  }
+  
+}
