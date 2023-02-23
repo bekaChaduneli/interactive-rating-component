@@ -15,7 +15,7 @@
 
 ### Links
 
-- Live Site URL: [Live site](https://bekaChaduneli.github.io/interactive-rating-component/)
+- Live Site URL: [Live site](https://interactive-rating-component-amber-two.vercel.app)
 - Solution URL: [Solution URL](https://github.com/bekaChaduneli/interactive-rating-component)
 
 ### Built with
