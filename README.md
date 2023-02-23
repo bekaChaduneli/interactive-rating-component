@@ -20,7 +20,7 @@
 
 ### Built with
 
-- REACT
+- REACT JS
 - Tailwind CSS
 
 ## Author
