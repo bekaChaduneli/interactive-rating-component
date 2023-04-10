@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,46 +11,45 @@ body {
   height: 100vh;
   font-family: "Overpass", sans-serif;
   background-color: #131518;
-
 }
 
 .box {
-  background: linear-gradient(120deg, #232A34, #181E27);
+  background: linear-gradient(120deg, #232a34, #181e27);
   border-radius: 0.9375em;
   padding: 1.5em;
-  width:20.4375em;
+  width: 20.4375em;
   height: 22.5em;
 }
 
 .submit {
-  background-color: #FC7614;
+  background-color: #fc7614;
 }
 
 .img-box {
-  background-color: #262E38;
+  background-color: #262e38;
 }
 
 .text {
-  color: #969FAD;
+  color: #969fad;
 }
 
 .rating {
   width: 2.625em;
   height: 2.625em;
   border-radius: 50%;
-  background-color: #262E38;
+  background-color: #262e38;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: #7C8798;
+  color: #7c8798;
   transition: 0.4s;
   font-size: 1em;
   font-weight: 700;
 }
 
 .rating:hover {
-  background-color: #FC7614;
+  background-color: #fc7614;
   color: #fff;
   transition: 0.4s;
 }
@@ -59,7 +58,7 @@ body {
   width: 2.625em;
   height: 2.625em;
   border-radius: 50%;
-  background-color: #7C8798;
+  background-color: #7c8798;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,16 +71,16 @@ body {
 
 .submit:hover {
   background-color: #fff;
-  color: #FC7614;
+  color: #fc7614;
   transition: 0.4s;
 }
 
 .select-box {
-  background-color: #262E38;
+  background-color: #262e38;
 }
 
 .select {
-  color: #FC7614;
+  color: #fc7614;
 }
 
 @media screen and (min-width: 40em) {
@@ -95,7 +94,5 @@ body {
   .rating {
     width: 3.1875em;
     height: 3.1875em;
-
   }
-  
 }
